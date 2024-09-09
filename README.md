@@ -17,8 +17,8 @@ docker pull docker.io/mysql
 
 ### 运行MySQL镜像
 ```
-docker run -p 3306:3306 --name mysql_3306 -e MYSQL_ROOT_PASSWORD=root -d docker.io/mysql
-docker run -p 3307:3306 --name mysql_3307 -e MYSQL_ROOT_PASSWORD=root -d docker.io/mysql
+docker run -p 3306:3306 --name mysql_3306 -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+docker run -p 3307:3306 --name mysql_3307 -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
 ```
 
 ### 建数据库
